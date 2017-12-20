@@ -1,4 +1,4 @@
-package com.forest.chapter1;
+package com.forest.chapter1_1;
 
 import edu.princeton.cs.algs4.StdOut;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.junit.Test;
  * @Description: chapter1课后练习-基础练习选做
  */
 
-public class Demo2 {
+public class Demo1 {
     /**
      * 1.1.1
      */

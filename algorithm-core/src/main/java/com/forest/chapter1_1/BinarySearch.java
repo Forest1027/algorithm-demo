@@ -1,4 +1,4 @@
-package com.forest.chapter1;
+package com.forest.chapter1_1;
 
 
 import org.junit.Test;
@@ -12,7 +12,7 @@ import java.util.Arrays;
  * @Date: Created in 2017/12/7 16:17
  * @Description: 二分查找
  */
-public class Demo1 {
+public class BinarySearch {
     public static void main(String[] args) {
         try {
             BufferedReader br = new BufferedReader(new FileReader("D:\\其他文档\\books\\algs4-data\\largeW.txt"));
