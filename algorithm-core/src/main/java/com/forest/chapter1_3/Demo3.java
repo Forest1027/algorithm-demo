@@ -47,4 +47,14 @@ public class Demo3 {
         }
     }
 
+    /**
+     * 背包异常测试
+     */
+    @Test
+    public void test3() {
+        Bag<String> b = new Bag<>();
+        Iterator iterator = b.iterator();
+        iterator.remove();
+    }
+
 }
