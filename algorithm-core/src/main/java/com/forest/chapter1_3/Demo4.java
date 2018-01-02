@@ -66,5 +66,4 @@ public class Demo4 {
             System.out.println(iterator.next());
         }
     }
-
 }
