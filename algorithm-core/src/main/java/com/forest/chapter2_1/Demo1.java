@@ -8,13 +8,29 @@ import org.junit.Test;
  * @Description:
  */
 public class Demo1 {
+    /**
+     * 测试选择排序
+     */
     @Test
     public void test1() {
         Selection selection = new Selection();
-        Integer[] arr = {2, 1, 7, 4, 9};
+        Integer[] arr = {};
         print(arr);
         System.out.println("----------");
         selection.sort(arr);
+        print(arr);
+    }
+
+    /**
+     * 测试插入排序
+     */
+    @Test
+    public void test2() {
+        Insertion insertion = new Insertion();
+        Integer[] arr = {2, 1, 7, 4, 9};
+        print(arr);
+        System.out.println("----------");
+        insertion.sort(arr);
         print(arr);
     }
 
